@@ -1,0 +1,6 @@
+  <%= render "shared/error_messages", :target => @user %>
+  <p> Login : <%= form.text_field :login %></p>
+  <p>Prénom : <%= form.text_field :firstname %></p>
+  <p>Nom : <%= form.text_field :lastname %></p>
+  <p>Email : <%= form.text_field :email %></p>
+  <p>Mot de passe : <%= form.password_field :password %></p>

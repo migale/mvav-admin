@@ -1,0 +1,6 @@
+<h1>Administration</h1>
+<% 
+ if User.current.login == "administrateur" %>
+  <p><%= link_to "Utilisateurs", users_path %> </p>
+<% end %>
+<p><%= link_to "Clients", clients_path %> </p>
